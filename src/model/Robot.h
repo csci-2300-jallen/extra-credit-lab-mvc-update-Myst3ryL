@@ -29,6 +29,7 @@ public:
     void loadFromFile(const std::string& filePath);
 
 private:
+    int moveCount = 0;
     void moveTo(int newX, int newY);
     void recordPosition();
 
